@@ -35,6 +35,7 @@ void RegisterOGRAeronavFAA();
 void RegisterOGRBNA();
 void RegisterOGRHTF();
 void RegisterOGROpenAir();
+void RegisterOGRSEGUKOOA();
 
 }
 

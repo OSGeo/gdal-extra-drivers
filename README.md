@@ -19,6 +19,7 @@ steps up to maintain it.
 * [BNA](doc/bna.rst)
 * [HTF](doc/htf.rst)
 * [OpenAir](doc/openair.rst)
+* [SEGUKOOA](doc/segukooa.rst)
 
 ### Build requirements
 

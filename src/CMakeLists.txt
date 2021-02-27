@@ -15,6 +15,9 @@ set(GDAL_EXTRA_DRIVERS_SOURCES
     openair/ogropenairdatasource.cpp
     openair/ogropenairlayer.cpp
     openair/ogropenairlabellayer.cpp
+    segukooa/ogrsegukooadriver.cpp
+    segukooa/ogrsegukooadatasource.cpp
+    segukooa/ogrsegukooalayer.cpp
 )
 
 add_library(gdal_legacy SHARED ${GDAL_EXTRA_DRIVERS_SOURCES})

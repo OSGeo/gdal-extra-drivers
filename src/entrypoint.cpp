@@ -36,4 +36,5 @@ void GDALRegisterMe()
     RegisterOGRBNA();
     RegisterOGRHTF();
     RegisterOGROpenAir();
+    RegisterOGRSEGUKOOA();
 }
