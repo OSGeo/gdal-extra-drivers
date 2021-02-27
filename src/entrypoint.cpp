@@ -35,4 +35,5 @@ void GDALRegisterMe()
     RegisterOGRAeronavFAA();
     RegisterOGRBNA();
     RegisterOGRHTF();
+    RegisterOGROpenAir();
 }

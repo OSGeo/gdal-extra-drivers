@@ -1,5 +1,6 @@
 set(GDAL_EXTRA_DRIVERS_SOURCES
     entrypoint.cpp
+    ogr_geo_utils.cpp
     bna/ogrbnadatasource.cpp
     bna/ogrbnadriver.cpp
     bna/ogrbnalayer.cpp
@@ -10,6 +11,10 @@ set(GDAL_EXTRA_DRIVERS_SOURCES
     htf/ogrhtfdriver.cpp
     htf/ogrhtfdatasource.cpp
     htf/ogrhtflayer.cpp
+    openair/ogropenairdriver.cpp
+    openair/ogropenairdatasource.cpp
+    openair/ogropenairlayer.cpp
+    openair/ogropenairlabellayer.cpp
 )
 
 add_library(gdal_legacy SHARED ${GDAL_EXTRA_DRIVERS_SOURCES})

@@ -18,6 +18,7 @@ steps up to maintain it.
 * [AeronavFAA](doc/aeronavfaa.rst)
 * [BNA](doc/bna.rst)
 * [HTF](doc/htf.rst)
+* [OpenAir](doc/openair.rst)
 
 ### Build requirements
 

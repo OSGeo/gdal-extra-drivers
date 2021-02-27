@@ -1,10 +1,12 @@
 /******************************************************************************
+ * $Id$
  *
- * Project:  GDAL legacy drivers
+ * Project:  X-Plane aeronautical data reader
+ * Purpose:  Definition of geo-computation functions
  * Author:   Even Rouault, even dot rouault at spatialys.com
  *
  ******************************************************************************
- * Copyright (c) 2021, Even Rouault <even dot rouault at spatialys.com>
+ * Copyright (c) 2008, Even Rouault <even dot rouault at spatialys.com>
  *
  * Permission is hereby granted, free of charge, to any person obtaining a
  * copy of this software and associated documentation files (the "Software"),
@@ -25,17 +27,32 @@
  * DEALINGS IN THE SOFTWARE.
  ****************************************************************************/
 
-#ifndef EXTRADRIVERS_H
-#define EXTRADRIVERS_H
+#ifndef OGR_GEO_UTILS_H_INCLUDED
+#define OGR_GEO_UTILS_H_INCLUDED
 
-extern "C"
+namespace gdal_extra_drivers
 {
 
-void RegisterOGRAeronavFAA();
-void RegisterOGRBNA();
-void RegisterOGRHTF();
-void RegisterOGROpenAir();
+/** The following functions provide computations based on great-circle/
+ * orthodromic path, on a sphere with a radius of ~6366707 m.
+ * The computations are not necessarily implemented in a very accurate/
+ * stable way, and shouldn't be used for points that are too close (less than
+ * one meter).
+ * They are good enough for example to compute the coordinates of the polygon
+ * for an airport runway, from its extreme points, track and length.
+ */
+
+double OGR_GreatCircle_Distance(double dfLatA_deg, double dfLonA_deg,
+                                double dfLatB_deg, double dfLonB_deg);
+
+double OGR_GreatCircle_InitialHeading(double dfLatA_deg, double dfLonA_deg,
+                                      double dfLatB_deg, double dfLonB_deg);
+
+/* such as ExtendPosition(A, Distance(A,B), InitialHeading(A,B)) ~= B */
+int OGR_GreatCircle_ExtendPosition(double dfLatA_deg, double dfLonA_deg,
+                                   double dfDistance, double dfHeadingInA,
+                                   double* pdfLatB_deg, double* pdfLonB_deg);
 
 }
 
-#endif // EXTRADRIVERS_H
+#endif /* ndef OGR_GEO_UTILS_H_INCLUDED */
