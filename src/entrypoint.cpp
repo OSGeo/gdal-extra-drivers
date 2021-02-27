@@ -32,5 +32,6 @@ extern "C" void CPL_DLL GDALRegisterMe();
 
 void GDALRegisterMe()
 {
+    RegisterOGRAeronavFAA();
     RegisterOGRBNA();
 }

@@ -15,6 +15,7 @@ steps up to maintain it.
 
 ### Included drivers
 
+* [AeronavFAA](doc/aeronavfaa.rst)
 * [BNA](doc/bna.rst)
 
 ### Build requirements
