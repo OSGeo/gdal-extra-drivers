@@ -17,6 +17,7 @@ steps up to maintain it.
 
 * [AeronavFAA](doc/aeronavfaa.rst)
 * [BNA](doc/bna.rst)
+* [BPG](doc/bpg.rst) (not included in build system)
 * [HTF](doc/htf.rst)
 * [OpenAir](doc/openair.rst)
 * [SEGUKOOA](doc/segukooa.rst)
