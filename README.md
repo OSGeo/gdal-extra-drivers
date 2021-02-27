@@ -19,6 +19,7 @@ steps up to maintain it.
 * [BNA](doc/bna.rst)
 * [BPG](doc/bpg.rst) (not included in build system)
 * [E00Grid](doc/e00grid.rst)
+* [EPSILON](doc/epsilon.rst) (not included in build system)
 * [HTF](doc/htf.rst)
 * [OpenAir](doc/openair.rst)
 * [SEGUKOOA](doc/segukooa.rst)
