@@ -24,6 +24,14 @@ set(GDAL_EXTRA_DRIVERS_SOURCES
     sua/ogrsuadriver.cpp
     sua/ogrsuadatasource.cpp
     sua/ogrsualayer.cpp
+    xplane/ogrxplanedriver.cpp
+    xplane/ogrxplanedatasource.cpp
+    xplane/ogrxplanelayer.cpp
+    xplane/ogr_xplane_apt_reader.cpp
+    xplane/ogr_xplane_awy_reader.cpp
+    xplane/ogr_xplane_fix_reader.cpp
+    xplane/ogr_xplane_nav_reader.cpp
+    xplane/ogr_xplane_reader.cpp
 )
 
 add_library(gdal_legacy SHARED ${GDAL_EXTRA_DRIVERS_SOURCES})

@@ -22,6 +22,7 @@ steps up to maintain it.
 * [SEGUKOOA](doc/segukooa.rst)
 * [SEGY](doc/segy.rst)
 * [SUA](doc/sua.rst)
+* [XPlane](doc/xplane.rst)
 
 ### Build requirements
 

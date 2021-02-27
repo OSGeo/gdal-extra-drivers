@@ -38,6 +38,7 @@ void RegisterOGROpenAir();
 void RegisterOGRSEGUKOOA();
 void RegisterOGRSEGY();
 void RegisterOGRSUA();
+void RegisterOGRXPlane();
 
 }
 

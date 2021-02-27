@@ -39,4 +39,5 @@ void GDALRegisterMe()
     RegisterOGRSEGUKOOA();
     RegisterOGRSEGY();
     RegisterOGRSUA();
+    RegisterOGRXPlane();
 }
