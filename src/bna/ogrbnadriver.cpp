@@ -26,6 +26,8 @@
  * DEALINGS IN THE SOFTWARE.
  ****************************************************************************/
 
+#include "extradrivers.h"
+
 #include "ogr_bna.h"
 #include "cpl_conv.h"
 

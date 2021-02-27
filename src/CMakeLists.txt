@@ -4,6 +4,9 @@ set(GDAL_EXTRA_DRIVERS_SOURCES
     bna/ogrbnadriver.cpp
     bna/ogrbnalayer.cpp
     bna/ogrbnaparser.cpp
+    aeronavfaa/ograeronavfaadriver.cpp
+    aeronavfaa/ograeronavfaadatasource.cpp
+    aeronavfaa/ograeronavfaalayer.cpp
 )
 
 add_library(gdal_legacy SHARED ${GDAL_EXTRA_DRIVERS_SOURCES})
@@ -11,7 +14,7 @@ add_library(gdal_legacy SHARED ${GDAL_EXTRA_DRIVERS_SOURCES})
 set_target_properties(gdal_legacy PROPERTIES PREFIX "")
 set_target_properties(gdal_legacy PROPERTIES OUTPUT_NAME "gdal_LEGACY")
 
-target_include_directories(gdal_legacy PRIVATE ${GDAL_INCLUDE_DIR})
+target_include_directories(gdal_legacy PRIVATE ${CMAKE_SOURCE_DIR}/src ${GDAL_INCLUDE_DIR})
 target_link_libraries(gdal_legacy PUBLIC ${GDAL_LIBRARY})
 
 install(TARGETS gdal_legacy DESTINATION lib/gdalplugins)
