@@ -33,6 +33,7 @@ extern "C"
 
 void RegisterOGRAeronavFAA();
 void RegisterOGRBNA();
+void RegisterOGRHTF();
 
 }
 

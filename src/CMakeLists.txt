@@ -7,6 +7,9 @@ set(GDAL_EXTRA_DRIVERS_SOURCES
     aeronavfaa/ograeronavfaadriver.cpp
     aeronavfaa/ograeronavfaadatasource.cpp
     aeronavfaa/ograeronavfaalayer.cpp
+    htf/ogrhtfdriver.cpp
+    htf/ogrhtfdatasource.cpp
+    htf/ogrhtflayer.cpp
 )
 
 add_library(gdal_legacy SHARED ${GDAL_EXTRA_DRIVERS_SOURCES})
