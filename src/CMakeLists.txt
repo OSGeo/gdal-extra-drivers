@@ -18,6 +18,9 @@ set(GDAL_EXTRA_DRIVERS_SOURCES
     segukooa/ogrsegukooadriver.cpp
     segukooa/ogrsegukooadatasource.cpp
     segukooa/ogrsegukooalayer.cpp
+    segy/ogrsegydriver.cpp
+    segy/ogrsegydatasource.cpp
+    segy/ogrsegylayer.cpp
 )
 
 add_library(gdal_legacy SHARED ${GDAL_EXTRA_DRIVERS_SOURCES})

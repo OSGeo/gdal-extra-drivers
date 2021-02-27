@@ -20,6 +20,7 @@ steps up to maintain it.
 * [HTF](doc/htf.rst)
 * [OpenAir](doc/openair.rst)
 * [SEGUKOOA](doc/segukooa.rst)
+* [SEGY](doc/segy.rst)
 
 ### Build requirements
 
