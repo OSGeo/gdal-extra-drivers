@@ -21,6 +21,7 @@ steps up to maintain it.
 * [OpenAir](doc/openair.rst)
 * [SEGUKOOA](doc/segukooa.rst)
 * [SEGY](doc/segy.rst)
+* [SUA](doc/sua.rst)
 
 ### Build requirements
 

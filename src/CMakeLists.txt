@@ -21,6 +21,9 @@ set(GDAL_EXTRA_DRIVERS_SOURCES
     segy/ogrsegydriver.cpp
     segy/ogrsegydatasource.cpp
     segy/ogrsegylayer.cpp
+    sua/ogrsuadriver.cpp
+    sua/ogrsuadatasource.cpp
+    sua/ogrsualayer.cpp
 )
 
 add_library(gdal_legacy SHARED ${GDAL_EXTRA_DRIVERS_SOURCES})
