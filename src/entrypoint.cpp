@@ -41,4 +41,5 @@ void GDALRegisterMe()
     RegisterOGRSUA();
     RegisterOGRXPlane();
     GDALRegister_E00GRID();
+    GDALRegister_IGNFHeightASCIIGrid();
 }

@@ -12,6 +12,7 @@ set(GDAL_EXTRA_DRIVERS_SOURCES
     htf/ogrhtfdriver.cpp
     htf/ogrhtfdatasource.cpp
     htf/ogrhtflayer.cpp
+    ignfheightasciigrid/ignfheightasciigrid.cpp
     openair/ogropenairdriver.cpp
     openair/ogropenairdatasource.cpp
     openair/ogropenairlayer.cpp

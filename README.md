@@ -21,6 +21,7 @@ steps up to maintain it.
 * [E00Grid](doc/e00grid.rst)
 * [EPSILON](doc/epsilon.rst) (not included in build system)
 * [HTF](doc/htf.rst)
+* [IGNFHeightASCIIGrid](doc/ignfheightasciigrid.rst)
 * [OpenAir](doc/openair.rst)
 * [SEGUKOOA](doc/segukooa.rst)
 * [SEGY](doc/segy.rst)
