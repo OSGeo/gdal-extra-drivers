@@ -8,6 +8,7 @@ set(GDAL_EXTRA_DRIVERS_SOURCES
     aeronavfaa/ograeronavfaadriver.cpp
     aeronavfaa/ograeronavfaadatasource.cpp
     aeronavfaa/ograeronavfaalayer.cpp
+    e00grid/e00griddataset.cpp
     htf/ogrhtfdriver.cpp
     htf/ogrhtfdatasource.cpp
     htf/ogrhtflayer.cpp

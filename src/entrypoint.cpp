@@ -40,4 +40,5 @@ void GDALRegisterMe()
     RegisterOGRSEGY();
     RegisterOGRSUA();
     RegisterOGRXPlane();
+    GDALRegister_E00GRID();
 }
