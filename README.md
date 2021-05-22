@@ -7,7 +7,7 @@ They used to be included in the GDAL core library in versions prior to 3.3, but
 they have been removed due to lack of interest to maintain them and because of
 their marginal values for the majority of users.
 
-They are known to work with GDAL 3.2. Compatibility with older or later versions
+They are known to work with GDAL 3.3. Compatibility with older or later versions
 is not guaranteed.
 
 This repository is *not* maintained. Users are on their own, unless someone
@@ -31,7 +31,7 @@ steps up to maintain it.
 
 ### Build requirements
 
-GDAL 3.2 headers and development library.
+GDAL 3.3 headers and development library.
 
 ### How to build
 
