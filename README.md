@@ -29,6 +29,32 @@ steps up to maintain it.
 * [SUA](doc/sua.rst)
 * [XPlane](doc/xplane.rst)
 
+### Other drivers
+
+The following drivers, removed in GDAL 3.5, are available in the ``not_integrated_in_build``
+directory. As the name indicates it, you will have some work to get them built.
+
+* [ARCGen](not_integrated_in_build/arcgen/arcgen.rst)
+* [ArcObjects](not_integrated_in_build/arcobjects/ao.rst)
+* [Cloudant](not_integrated_in_build/cloudant/cloudant.rst)
+* [CouchDB](not_integrated_in_build/couchdb/couchdb.rst)
+* [DB2](not_integrated_in_build/db2/db2.rst)
+* [FME](not_integrated_in_build/fme/fme.rst)
+* [FujiBAS](not_integrated_in_build/fujibas/fujibas.rst)
+* [Geomedia](not_integrated_in_build/geomedia/geomedia.rst)
+* [GMT raster](not_integrated_in_build/gmt_raster/gmt.rst)
+* [GTM](not_integrated_in_build/gtm/gtm.rst)
+* [IDA](not_integrated_in_build/ida/ida.rst)
+* [Ingres](not_integrated_in_build/ingres/ingres.rst)
+* [Intergraph raster](not_integrated_in_build/ingr/intergraphraster.rst)
+* [Jasper JPEG2000](not_integrated_in_build/jpeg2000/jpeg2000.rst)
+* [JpegLS](not_integrated_in_build/jpegls/jpegls.rst)
+* [MDB](not_integrated_in_build/mdb/mdb.rst)
+* [MongoDB (pre v3)](not_integrated_in_build/mongodb_old/mongodb.rst)
+* [MrSID Lidar](not_integrated_in_build/mrsid_lidar/mg4lidar.rst)
+* REC
+* [WALK](not_integrated_in_build/walk/walk.rst)
+
 ### Build requirements
 
 GDAL 3.3 headers and development library.
