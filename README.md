@@ -39,6 +39,7 @@ directory. As the name indicates it, you will have some work to get them built.
 * [Cloudant](not_integrated_in_build/cloudant/cloudant.rst)
 * [CouchDB](not_integrated_in_build/couchdb/couchdb.rst)
 * [DB2](not_integrated_in_build/db2/db2.rst)
+* [DODS](not_integrated_in_build/dods/dods.rst)
 * [FME](not_integrated_in_build/fme/fme.rst)
 * [FujiBAS](not_integrated_in_build/fujibas/fujibas.rst)
 * [Geomedia](not_integrated_in_build/geomedia/geomedia.rst)
@@ -52,6 +53,7 @@ directory. As the name indicates it, you will have some work to get them built.
 * [MDB](not_integrated_in_build/mdb/mdb.rst)
 * [MongoDB (pre v3)](not_integrated_in_build/mongodb_old/mongodb.rst)
 * [MrSID Lidar](not_integrated_in_build/mrsid_lidar/mg4lidar.rst)
+* [OGR_DODS](not_integrated_in_build/ogr_dods/dods.rst)
 * REC
 * [WALK](not_integrated_in_build/walk/walk.rst)
 
