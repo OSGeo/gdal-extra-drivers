@@ -54,6 +54,7 @@ directory. As the name indicates it, you will have some work to get them built.
 * [MongoDB (pre v3)](not_integrated_in_build/mongodb_old/mongodb.rst)
 * [MrSID Lidar](not_integrated_in_build/mrsid_lidar/mg4lidar.rst)
 * [OGR_DODS](not_integrated_in_build/ogr_dods/dods.rst)
+* [Rasdaman](not_integrated_in_build/rasdaman/rasdaman.rst)
 * REC
 * [WALK](not_integrated_in_build/walk/walk.rst)
 
